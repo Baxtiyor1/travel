@@ -14,7 +14,7 @@ let izoh = prompt(name + ' Bilet narxi-$500, Mehmonxona narxi-$250, muzey va koâ
 let money =Number(prompt(name + " sizga " + sum + ' so\'m kerak bo\'ladi, sizdachi qancha mablag\' bor', -0));
 
 if(sum <= money){
-    elTitle.textContent = "Oq yo\'l, maroqli ordiq tilayman " + name
+    elTitle.textContent = "Oq yo\'l, maroqli xordiq tilayman " + name
 }else{
     elTitle.textContent = name + ' tushkunlikga tushma yanada yaxshiroq mehnat qil hamda o\'ylagan maqsading tomon olg\'a yur!!!'
 }
